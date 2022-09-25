@@ -1,0 +1,274 @@
+ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.startb{
+    font-size: 1.25rem;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+a{
+    text-decoration: none;
+    font-weight:700;
+    transition: 0.25s;
+    
+}
+a:hover{
+    color: #f4623a;
+}
+.nav{
+    padding: 20px 0;
+    position: fixed;
+    
+}
+.w-100{
+    width: 100%;
+}
+.bg-white{
+    background-color: #fff;
+}
+.text-white{
+    color: #fff;
+}
+.text-silver{
+    color: rgb(209, 206, 206);
+}
+.text-black{
+    color: #212529;
+}
+.hr-orng{
+    
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5px auto;
+    background-color: #f4623a;
+    opacity: 1;
+
+}
+.hr-white{
+   
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5px auto;
+    background-color: #fff;
+    opacity: 1;
+}
+.text-center{
+    text-align: center;
+}
+
+.header-bg{
+    padding: 8em;
+    background-position: center;
+    background-position: 100%;
+    
+    
+}
+.header-bg h1{
+    
+    font-size: 60px;
+}
+.header-bg h2{
+    
+    font-size: 60px;
+}
+.header-bg p{
+    font-size: 20px;
+}
+.btn{
+    background-color: #f4623a;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 0.25s;
+    background-position: center;
+}
+.btn:hover{
+    background-color:#da542f;
+}
+.btn-white{
+    background-color: #fff;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 0.25s;
+    background-position: center;
+}
+.my-1{
+    margin: 10px 0;
+}
+.my-2{
+    margin: 50px;
+}
+#about h2{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.p-silver{
+    font-weight:100;
+    padding:1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+.padding-1r{
+    padding: 1.5rem;
+}
+
+
+#service h2{
+    font-size: 2rem;
+    font-weight:600;
+}
+.item{
+    width: calc(100%/4);
+    text-align: center;
+    float: left;
+    
+}
+.pad10{
+    padding-bottom: 10rem;
+}
+.circle{
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-color:#fff;
+    
+}
+.circle i {
+    font-size: 2.5rem;
+    color:#f4623a;
+    
+}
+.p-gray{
+    font-size: large;
+    color: #6c757d;
+}
+.tittle-p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+#portfolio{
+    padding: auto;
+   
+}
+.port-bg-img{
+    width: 100%;
+    background-color:#fff;
+    height: 250px;
+    
+}
+.port-bg-color{
+    background-color: rgba(244, 98, 58, 0.9);
+    width: 100%;
+    height: 100%;
+    line-height: 250px;
+    text-align: center; 
+    font-size: 25px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.portitem{
+    width: calc(100%/3);
+    float: left;
+}
+.port-bg-img:hover .port-bg-color{
+    opacity: 1;
+}
+#download{
+    background-color: #212529;
+    padding: 1.5rem;
+    
+}
+#download h3{
+    font-size: 2rem;
+    padding: 1.5rem;
+    font-weight: normal;
+}
+#contact{
+    background-color: #fff; 
+    padding: 1.5rem;
+}
+.container-cont{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.input{
+   width: 32rem;
+   padding: 20px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   margin: 1.5rem;
+}
+#contact h3{
+    font-size: 2rem;
+    font-weight: 500;
+    border-color: 1px solid gray;
+    border-radius:5px ;
+}
+#form{
+    width: 50%;
+    height: 70%;
+    background-color: #fff;
+    padding: 25rem;
+    margin-top:3rem;
+}
+.last-btn{
+    background-color: #eb8b71;
+    padding: 1.5rem 2.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 0.25s;
+    background-position: center;
+    width: 65%;
+}
+.phone{
+    text-align: center;
+    font-size: 2.50rem;
+    margin: auto;
+    margin-top: 3rem;
+    color: #6c757d;
+   
+}
+.num{
+    font-size: 1px;
+    font-weight: 100;
+    margin-top: 5px;
+    
+}
+#footer{
+    background-color: #f8f6f6;
+    padding: 3.70rem;
+    margin-top: 7rem;
+    font-size:0.875em;
+}
